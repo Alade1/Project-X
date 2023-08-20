@@ -1,0 +1,365 @@
+:root {
+    /* Colors */
+    --logo-font : 'Lobster Two', cursive;
+    --body-fonts:'Roboto', sans-serif;   
+}
+
+/*Navbar */
+header{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo{
+    font-family: var(--logo-font);
+    font-size : 28px;
+    font-weight: 800;
+    padding-top: 6px;
+}
+body{
+    font-family: var(--body-fonts);
+}
+nav {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 40px; 
+}
+
+ul li  {
+    list-style: none;
+    font-size: 15px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 200px;
+}
+.right{
+    letter-spacing: 20px;
+}
+.login{
+    background-color: white;
+    border: none;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+    
+}
+.signup{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+}
+
+.Dlogo i {
+    font-size: 120px;
+}
+.hero{
+    margin-top: 70px;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.Studio{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.Webpage{
+    display: flex;
+    gap:10px;
+}
+.icons-right{
+    display: flex;
+    gap: 20px;
+}
+.heart{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+.heart i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.bookmark{
+    height: 30px;
+    width: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+.bookmark i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hero-second{
+    padding-left: 3rem;
+    margin-top: 30px;
+    padding-right: 3rem;
+    background-color: lightgrey;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-third{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    background-color: white;
+    padding-right: 4rem;
+    padding-bottom: 40px;
+}
+.herologo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.herologo i{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.curve{
+    width: 50%;
+}
+.hero-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav li{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav li a {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: var(--body-fonts);
+}
+.curve p{
+    font-size: 13px;
+    font-weight: lighter;
+}
+.Register{
+    background-color: white;
+    border: none;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+    color:black;
+    font-size: 13px;
+}
+.hero-right{
+    letter-spacing: 10px;
+}
+.hero-signup{
+    padding: 8px;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+    font-size: 13px;
+}
+.herobody p:first-child{
+    font-size: 40px;
+
+}
+.money{
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--body-fonts);
+}
+.expert{
+    font-size:  35px;
+    text-align: center;
+}
+.invest{
+    text-align: center;
+}
+.form-action{
+    position: relative;
+    
+}
+.form-action i {
+ position : absolute;
+ left: 277px;
+ padding-top: 9px;
+
+}
+::placeholder{
+    padding-left: 20px;
+}
+.input{
+    width: 300px;
+    border-radius: 30px;
+    height: 33px;
+    margin-left: 17rem;
+}
+.btnSignup{
+    position: absolute;
+    left: 485px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+    font-size: 13px;
+    width: 90px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+.allcards{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 30px;
+   
+}
+.hero-side{
+    display: flex;
+    justify-content: space-between;
+}
+.card-one{
+    height: 120px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top-card{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+.middle-card{
+    display: flex;
+    gap: 10px;   
+    
+}
+.line{
+    margin-top: 10px;
+    border-bottom: 2px solid gray
+}
+.last-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.U-cap{
+    font-size: 12px;
+    color: gray;
+}
+.billion{
+    font-size: 30px;
+    font-weight: 800;
+}
+.interest{
+    font-size: 10px;
+    color: gray;
+    padding-top: 18px;
+}
+.last-card p{
+    font-size: 10px;
+}
+.invested{
+    font-size: 7px;
+    color: gray;
+    padding-top: 18px;
+}
+.portfolio{
+    font-size: 7px;
+    color: gray;
+    padding-top: 18px;
+}
+.apac{
+    font-size: 12px;
+    color: white;
+}
+.second-card{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icona i{
+    color: white;
+}
+.card-two{
+    height: 120px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white
+}
+.email-contact{
+    margin-top: 30px;
+   padding-left: 20rem;
+}
+.D-lever{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.fileicon i{
+    font-size: 80px;
+}
+.Clients{
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+.Clients i{
+    position: absolute;
+    left: 494px;
+    padding-top:20px;
+    color: white;
+}
+.hire{
+    padding-left: 18px;
+    width: 100px;
+    background-color: #FF69B4;
+    border:none;
+    border-radius: 20px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
