@@ -1,7 +1,8 @@
 :root {
     /* Colors */
     --logo-font : 'Lobster Two', cursive;
-    --body-fonts:'Roboto', sans-serif;   
+    --body-fonts:'Roboto', sans-serif;  
+    --footer-font:'Sacramento', cursive; 
 }
 
 /*Navbar */
@@ -111,6 +112,8 @@ ul{
     border-radius: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .hero-third{
     padding-left: 4rem;
@@ -354,7 +357,56 @@ ul{
     border-radius: 20px;
     height: 60px;
     cursor: pointer;
+    color: white;
 }
+.pop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.adverts{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:2rem;
+}
+.dribble{
+    font-family: var(--footer-font);
+    color:#FF69B4;
+    font-size: 40px;
+}
+.foot-2 li{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    margin-top: 50px;
+    background-color: lightgray;
+    padding-left: 10px;
+}
+.foot-1 p{
+    width: 80%;
+}
+.foot-1{
+    margin:0;
+    padding: 0;
+}
+.foot-1 i{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.foot-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+
+}
+
+
 
 
 
